@@ -1,0 +1,12 @@
+[project]
+name = "voicecord"
+version = "1.0.0"
+description = "Temporary voice channels for Discord servers"
+readme = "README"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "discord>=2.3.2",
+    "python-dotenv>=1.1.1",
+    "sqlmodel>=0.0.24",
+]
